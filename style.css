@@ -36,6 +36,16 @@ rt
     text-align: center;
 }
 
+span 
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .card-category
 {
     margin-top: 3rem;
@@ -48,11 +58,15 @@ rt
     width: 100vw;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap ;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 0;
 }
 
 .card 
 {
+    width: 6.4rem;
+    height: 9rem;
     padding: 0;
     border: none;
     background: none;
@@ -86,6 +100,7 @@ p
     padding: 3rem 0rem 2.5rem 0rem;
     font-size: 1.2rem;
     width: 100vw;
+    margin-top: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -18,7 +18,7 @@ randomSelectButton.addEventListener("click", function ()
 {
     const categories = document.querySelectorAll(".card-category");
 
-    rot += 360;
+    rot += 720;
     randomSelectButton.style.rotate = rot + "deg";
 
     categories.forEach(category => 
