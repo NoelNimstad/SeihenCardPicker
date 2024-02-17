@@ -33,6 +33,7 @@ rt
     cursor: pointer;
     border-radius: 50%;
     transition: 1s ease;
+    text-align: center;
 }
 
 .card-category
