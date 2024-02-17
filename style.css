@@ -1,0 +1,96 @@
+body 
+{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+h1
+{
+    font-size: 3rem;
+}
+
+rt 
+{
+    font-size: 1.2rem;
+    margin-bottom: 0.25rem;
+}
+
+.shuffle
+{
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    border: none;
+    outline: 0.35rem solid #fff;
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 1s ease;
+}
+
+.card-category
+{
+    margin-top: 3rem;
+    width: 100vw;
+    text-align: center;
+}
+
+.flex 
+{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap ;
+}
+
+.card 
+{
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.card > img
+{
+    width: 6.4rem;
+    height: 9rem;
+    filter: brightness(50%);
+    transition: 0.2s ease;
+}
+
+.card.active > img
+{
+    filter: brightness(100%);
+    transform: translateY(-0.5rem);
+}
+
+.rules 
+{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+p 
+{
+    background-color: white;
+    color: black;
+    padding: 3rem 0rem 2.5rem 0rem;
+    font-size: 1.2rem;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -0.5rem;
+}
+
+p > ruby > rt 
+{
+    font-size: 0.5rem;
+}
